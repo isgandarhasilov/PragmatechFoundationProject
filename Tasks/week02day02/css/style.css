@@ -1,9 +1,9 @@
-#flag{
+/* #flag{
     border: 10px dotted yellow;
     width: 350px;
     height: 150px;
-}
-.blue{
+} */
+/* .blue{
     background-color: #00B9E4;
     width: 350px;
     height: 50px;
@@ -17,6 +17,13 @@
     background-color: #3F9C35;
     width: 350px;
     height: 50px;
+} */
+#flag{
+    width: 400px;
+    height: 20px;
+    background-color: red;
+    border-top: 20px solid blue;
+    border-bottom: 20px solid green;
 }
 #triangle{
     display: flex;
