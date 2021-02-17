@@ -1,0 +1,43 @@
+#flag{
+    border: 10px dotted yellow;
+    width: 350px;
+    height: 150px;
+}
+.blue{
+    background-color: #00B9E4;
+    width: 350px;
+    height: 50px;
+}
+.red{
+    background-color: #ED2939;
+    width: 350px;
+    height: 50px;
+}
+.green{
+    background-color: #3F9C35;
+    width: 350px;
+    height: 50px;
+}
+#triangle{
+    display: flex;
+}
+.triangle-red{
+    margin-top: 50px;
+    /* background-color: black; */
+    width: 0px;
+    height: 0px;
+    border-top: 100px solid transparent;
+    border-left: 100px solid red;
+    border-bottom: 100px solid transparent;
+    border-right: 100px solid transparent;
+}
+.triangle-green{
+    margin-top: 50px;
+    /* background-color: black; */
+    width: 0px;
+    height: 0px;
+    border-top: 100px solid transparent;
+    border-left: 100px solid #3F9C35;
+    border-bottom: 100px solid transparent;
+    border-right: 100px solid transparent;
+}
