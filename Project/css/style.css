@@ -1,0 +1,37 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/* page */
+#page{
+    display: flex;
+}
+/* header content */
+#header_content{
+    background-color: red;
+    border: 1px solid black;
+    width: 25%;
+}
+/* main content */
+#main_content{
+    padding: 50px;
+    width: 75%;
+}
+#main_container{
+    display: flex;
+    width: 1420px;
+    margin: auto;
+}
+/* navbar */
+.nb ul li{
+    margin-left: 20px;
+}
+.nb ul {
+    display: flex;
+    list-style: none;
+    
+}
+/* social icon */
+.social_icon{
+    border: 5px solid green;
+}
