@@ -14,17 +14,24 @@ body{
 }
 /* main content */
 #main_content{
-    padding: 50px;
     width: 75%;
 }
 #main_container{
     display: flex;
-    width: 1420px;
+    width: 100%;
     margin: auto;
+    align-items: center;
+    justify-content: space-between;
 }
 /* navbar */
 .nb ul li{
-    margin-left: 20px;
+    margin: 10px 20px;
+}
+.nb ul li a{
+    text-decoration: none;
+    color: #222;
+    font-weight: 700;
+    font-family: 'Oswald', Helvetica, sans-serif;
 }
 .nb ul {
     display: flex;
@@ -32,6 +39,18 @@ body{
     
 }
 /* social icon */
-.social_icon{
-    border: 5px solid green;
+.social_icon ul {
+    display: flex;
+}
+.social_icon ul a {
+    background-color: #e6e6e6d2;
+    color: #888;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.social_icon ul a:hover {
+    background-color: #35C7AA;
+}
+.social_icon ul a i{
+    margin: 10px;
 }
