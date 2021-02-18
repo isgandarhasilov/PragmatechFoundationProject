@@ -10,3 +10,7 @@ Foundation project link (Demo) [My_Template](https://lmpixels.com/demo/sunshine-
 # week02-day04 
 
 ## template secimi
+
+# week02-day04
+
+## secdiyim layihenin basliq hissesini ve navbar-i yazmaga calisdim
