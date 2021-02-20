@@ -7,10 +7,14 @@ Foundation project link (Demo) [My_Template](https://lmpixels.com/demo/sunshine-
 
 ###### bayraq ve ucbucaq taskini yazib elave etdim
 
-# week02-day04 
+# week02-day03 
 
 ## template secimi
 
 # week02-day04
 
 ## secdiyim layihenin basliq hissesini ve navbar-i yazmaga calisdim
+
+# week02-day05
+
+## layihede basliq hissesini ve navbar-i yazdim ve positionlari yerlesdirdim
