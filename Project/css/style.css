@@ -10,20 +10,47 @@ body{
 #page-content{
 
 }
+/* header content start*/
 #header-content{
     width: 25%;
     height: 100%;
     /*border: 1px solid red;*/
-    background-color: green;
+    background-color: #BCD2DB;
     position: fixed;
 }
+.header{
+    
+}
+.header-text{
+    text-align: center;
+    padding: 25px;
+    color: #fff;
+}
+.header-text h1{
+    font-size: 40px;
+}
+.header-text p{
+    font-size: 18px;
+}
+.header-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-img img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+/* main content */
 #main-content{
     width: 75%;
     height: 100px;
     /*border: 1px solid red;*/
     position: absolute;
-    top: 0px;
+    top: auto;
     right: 0px;
+    /* z-index: 999; */
 }
 #main_content{
     width: 100%;
@@ -36,7 +63,10 @@ body{
     display: flex;
     padding: 30px 70px;
     align-items: center;
+    position: relative;
     justify-content: space-between;
+    border-left: 5px solid #6b7272;
+    height: 100%;
 }
 /* navbar */
 .nb ul li{
@@ -85,9 +115,23 @@ body{
     display: flex;
     align-items: center;
     margin: 0 0 0 -65px;
+    position: relative;
+    left: -5px;
+}
+.st-content::after{
+    display: block;
+    width: 5px;
+    height: 100%;
+    position: absolute;
+    bottom: 5px;
+    left: -5px;
+    content: "";
+    /* border: 1px solid #34C7A9; */
+    background-color: #34C7A9;
+    transform: skew(0deg,65deg);
 }
 .st-content h2{
-    padding: 10px 20px 10px 63px;
+    padding: 10px 20px 10px 90px;
     background-color: #34C7A9;
     margin: 0px;
     font-weight: 200;
