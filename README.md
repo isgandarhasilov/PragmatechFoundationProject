@@ -18,3 +18,7 @@ Foundation project link (Demo) [My_Template](https://lmpixels.com/demo/sunshine-
 # week02-day05
 
 ## layihede basliq hissesini ve navbar-i yazdim ve positionlari yerlesdirdim
+
+# week03-day02
+
+## info section ve slider hisseni yazdim
