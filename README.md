@@ -22,3 +22,7 @@ Foundation project link (Demo) [My_Template](https://lmpixels.com/demo/sunshine-
 # week03-day02
 
 ## info section ve slider hisseni yazdim
+
+# week03-day03
+
+## html tagi olan progress tagi ile progress-bar dizayn etmeye calisdim
