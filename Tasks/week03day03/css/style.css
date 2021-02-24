@@ -1,0 +1,19 @@
+.navbar {
+    display: flex;
+}
+.sub-menu{
+    display: none;
+}
+.dropdown:hover .sub-menu{
+    display: block;
+    color: red;
+}
+body li{
+    list-style: none;
+}
+.dropdown{
+    background-color: green;
+    padding: 15px;
+    color: white;
+    border-radius: 50px;
+}
