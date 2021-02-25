@@ -1,3 +1,9 @@
+.d-flex{
+    display: flex;
+}
+.container{
+    
+}
 .row{
     display: flex;
 }
