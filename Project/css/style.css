@@ -53,7 +53,7 @@ body{
     z-index: 999;
 }
 .inner-main-content{}
-#nb_container, #st_container, #general_info, #services {
+#nb_container, #st_container, #general_info, #services, #clients, #fun_facts {
     display: flex;
     padding: 30px 70px;
     align-items: center;
@@ -99,8 +99,13 @@ body{
     text-decoration: none;
     margin-right: 10px;
 }
+.social_icon ul a:hover i{
+    color: white;
+    transition: all 0.7s ease;
+}
 .social_icon ul a:hover {
     background-color: #35C7AA;
+    transition: all 0.7s ease;
 }
 .social_icon ul a i{
     margin: 10px;
@@ -152,7 +157,7 @@ body{
     text-align: justify;
     margin-bottom: 30px;
 }
-.info-section h3, .testimonials h3, .services-header h3 {
+.info-section h3, .testimonials h3, .services-header h3, .clients-header h3, .fun-facts-header h3 {
     font-size: 19px;
     line-height: 28px;
     color: #222222;
@@ -161,7 +166,7 @@ body{
     margin: 0px;
     /* border: 2px solid red; */
 }
-.testimonials h3, .services-header h3{
+.testimonials h3, .services-header h3, .clients-header h3, .fun-facts-header h3{
     display: inline-block;
     border-bottom: 2px solid #34C7A9;
 }
@@ -212,11 +217,16 @@ body{
 .button-slider button {
     border: none;
     padding: 5px 10px;
+    color: #888;
 }
 .button-slider button:hover{
     cursor: pointer;
     background-color: #35C7AA;
     border: none;
+    transition: all 0.7s ease;
+}
+.button-slider button:hover i{
+    color: white;
 }
 .slider-author span{
     display: block;
@@ -232,7 +242,7 @@ body{
     margin-bottom: 30px;
     /* width: 100%; */
 }
-.services-container{
+.services-container, .clients-container, .fun-facts-container{
     width: 100%;
 }
 .inner-services{
@@ -255,10 +265,41 @@ body{
     margin-bottom: 18px;
     /* object-fit: cover; */
 }
+/* clients section */
+#clients{
+    margin-bottom: 30px;
+}
+.inner-clients{
+    /* width: 100%; */
+    padding: 20px;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+}
+.inner-clients img{
+    width: 80px;
+    height: 80px;
+    /* object-fit: contain; */
+    opacity: 0.5;
+}
+.inner-clients img:hover{
+    opacity: 1;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
 .services{
 
 }
 .icon-funfact{
     color: #888;
     font-size: 50px;
+}
+/* fun-facts section */
+.inner-fun-facts{
+    padding: 20px;
+    border: 1px solid green;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
 }

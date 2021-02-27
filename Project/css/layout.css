@@ -6,6 +6,7 @@
 }
 .row{
     display: flex;
+    width: 100%;
 }
 .border-red{
     border: 1px solid red;
