@@ -295,11 +295,60 @@ body{
     font-size: 50px;
 }
 /* fun-facts section */
+.mt-20{
+    margin-top: 20px;
+}
 .inner-fun-facts{
     padding: 20px;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     margin: 5px;
-    display: flex;
-    justify-content: center;
+    text-align: center;
     margin-bottom: 30px;
+    background-color: #FAFAFA;
+    box-shadow: 0px 0px 7px 0px #888888;
+}
+.inner-fun-facts-2{
+    padding: 20px;
+    /* border: 1px solid green; */
+    margin: 5px;
+    text-align: center;
+    background-color: #FFFFFF;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 5px 5px #f5f2f2;
+}
+.inner-fun-facts h3{
+    margin: 0;
+    margin-top: 10px;
+}
+.inner-fun-facts-2 h3{
+    margin: 0;
+    margin-top: 10px;
+}
+.inner-fun-facts p{
+    margin: 0;
+    margin-top: 10px;
+}
+.inner-fun-facts-2 p{
+    margin: 0;
+    margin-top: 10px;
+}
+.inner-fun-facts:hover{
+    
+}
+.inner-fun-facts-2:hover{
+    
+}
+.fun-fact-icon{
+    font-size: 50px;
+    color: #D1D2D3;
+}
+.inner-fun-facts p{
+    font-size: 25px;
+    font-weight: 200;
+    color: #35C7AA;
+}
+.inner-fun-facts-2 p{
+    font-size: 25px;
+    font-weight: 200;
+    color: #35C7AA;
 }
