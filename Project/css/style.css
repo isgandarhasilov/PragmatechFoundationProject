@@ -53,14 +53,14 @@ body{
     z-index: 999;
 }
 .inner-main-content{}
-#nb_container, #st_container, #general_info, #services, #clients, #fun_facts {
+#nb_container, #st_container, #general_info, #services, #clients, #fun_facts, #blog_posts {
     display: flex;
     padding: 30px 70px;
     align-items: center;
     position: relative;
     justify-content: space-between;
     /* border-left: 5px solid #6b7272; */
-    /* border: 1px solid red; */
+    border: 1px solid red;
     height: 100%;
 }
 /* navbar */
@@ -242,7 +242,7 @@ body{
     margin-bottom: 30px;
     /* width: 100%; */
 }
-.services-container, .clients-container, .fun-facts-container{
+.services-container, .clients-container, .fun-facts-container, .blog-post-container{
     width: 100%;
 }
 .inner-services{
@@ -351,4 +351,11 @@ body{
     font-size: 25px;
     font-weight: 200;
     color: #35C7AA;
+}
+/* blog-post start*/
+.blog-post-container{
+    
+}
+.blog-post-img{
+
 }
