@@ -30,3 +30,11 @@ Foundation project link (Demo) [My_Template](https://lmpixels.com/demo/sunshine-
 # week03-day05
 
 ## layihemin ana sehifesi demek olar ki yekunlasdi
+
+# week04-day01
+
+## layihemin blog sehifesinin strukturunu qurdum
+
+# week04-day03
+
+## layihemin blog sehifesi artiq yekunlasmaq uzredi
