@@ -4,6 +4,9 @@ body{
     font-family: 'Oswald', Helvetica, sans-serif;
     background-color: #FFFFFF;
 }
+.decoration-none{
+    text-decoration: none;
+}
 /* page */
 #page{
     position: relative;
