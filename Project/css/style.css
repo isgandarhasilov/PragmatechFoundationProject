@@ -1,8 +1,10 @@
 body{
     margin: 0px;
     padding: 0px;
-    font-family: 'Oswald', Helvetica, sans-serif;
+    /* font-family: 'Oswald', Helvetica, sans-serif; */
     background-color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'PT Sans', sans-serif; */
 }
 .decoration-none{
     text-decoration: none;
@@ -82,7 +84,7 @@ body{
     text-decoration: none;
     color: #222;
     font-weight: 700;
-    font-family: 'Oswald', Helvetica, sans-serif;
+    /* font-family: 'Oswald', Helvetica, sans-serif; */
 }
 .nb ul {
     display: flex;
@@ -165,7 +167,7 @@ body{
     line-height: 28px;
     color: #222222;
     font-weight: 700;
-    font-family: 'Oswald', Helvetica, sans-serif;
+    /* font-family: 'Oswald', Helvetica, sans-serif; */
     margin: 0px;
     /* border: 2px solid red; */
 }
