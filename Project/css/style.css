@@ -73,7 +73,7 @@ body{
     z-index: 999;
 }
 .inner-main-content{}
-#nb_container, #st_container, #general_info, #services, #clients, #fun_facts, #blog_posts, .resume-container {
+#nb_container, #st_container, #general_info, #services, #clients, #fun_facts, #blog_posts, .resume-container, #my_cv {
     display: flex;
     padding: 30px 70px;
     align-items: center;
@@ -417,6 +417,7 @@ body{
 }
 /* resume styles */
 #resume{}
+
 .inner-resume {
     border-left: 1px solid #f4f9ed;
     position: relative;
@@ -451,4 +452,16 @@ body{
     background-color: #A1D659;
     transform: skew(0deg,60deg);
     /* border: 1px solid #A1D659; */
+}
+#my_cv button{
+    padding: 10px 25px;
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid #35C7AA;
+}
+#my_cv button:hover{
+    color: white;
+    background-color: #35C7AA;
+    transition: all .7s ease;
+    border-radius: 25px;
 }
