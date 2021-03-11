@@ -58,7 +58,7 @@ body{
     z-index: 999;
 }
 .inner-main-content{}
-#nb_container, #st_container, #general_info, #services, #clients, #fun_facts, #blog_posts {
+#nb_container, #st_container, #general_info, #services, #clients, #fun_facts, #blog_posts, .resume-container {
     display: flex;
     padding: 30px 70px;
     align-items: center;
