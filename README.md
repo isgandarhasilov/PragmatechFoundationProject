@@ -38,3 +38,11 @@ Foundation project link (Demo) [My_Template](https://lmpixels.com/demo/sunshine-
 # week04-day03
 
 ## layihemin blog sehifesi artiq yekunlasmaq uzredi
+
+# week05-day03
+
+## layihemin qalan diger sehifelerinin strukturunu qurmaga calisdim
+
+# week05-day04
+
+## layihemin resume sehifesini yazmaga calisdim
