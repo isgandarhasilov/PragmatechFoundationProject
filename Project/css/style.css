@@ -503,7 +503,10 @@ body{
     color: white;
     background-color: #35C7AA;
     transition: all .7s ease;
-    border-radius: 25px;
+    /* border-radius: 25px; */
+    /* border: 10px solid red; */
+    /* font-weight: 900; */
+    /* box-shadow: 0px 0px 0px 10px; */ 
 }
 .progress-bar{
     height: 10px;
