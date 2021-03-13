@@ -3,7 +3,7 @@ body{
     padding: 0px;
     /* font-family: 'Oswald', Helvetica, sans-serif; */
     background-color: #FFFFFF;
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
     /* font-family: 'PT Sans', sans-serif; */
 }
 .m-0{
@@ -128,7 +128,7 @@ body{
     border: none;
     background-color: #35C7AA;
     width: 25px;
-    height: 4px;
+    height: 2px;
     border-radius: 20px;
 }
 .nb ul li a{
@@ -479,6 +479,7 @@ body{
     position: relative;
     padding-left: 30px;
     left: -5px;
+    color: white;
 }
 .inner-resume-text .resume-date::after{
     display: block;
@@ -513,10 +514,104 @@ body{
 }
 .inner-progress-bar{
     border: 2px solid white;
-    width: 70%;
     height: 6px;
     border-radius: 20px;
     background-color: #35C7AA;
 }
-
-
+/* skills-bar animation */
+.skill-1{
+    width: 90%;
+    animation: skill-1 7s 1 linear;
+}
+@keyframes skill-1{
+    0%{
+        width: 0%;
+    }
+    90%{
+        width: 90%;
+    }
+}
+.skill-2{
+    width: 80%;
+    animation: skill-2 7s 1 linear;
+}
+@keyframes skill-2{
+    0%{
+        width: 0%;
+    }
+    80%{
+        width: 80%;
+    }
+}
+.skill-3{
+    width: 60%;
+    animation: skill-3 7s 1 linear;
+}
+@keyframes skill-3{
+    0%{
+        width: 0%;
+    }
+    60%{
+        width: 60%;
+    }
+}
+.skill-4{
+    width: 92%;
+    animation: skill-4 7s 1 linear;
+}
+@keyframes skill-4{
+    0%{
+        width: 0%;
+    }
+    92%{
+        width: 92%;
+    }
+}
+.skill-5{
+    width: 88%;
+    animation: skill-5 7s 1 linear;
+}
+@keyframes skill-5{
+    0%{
+        width: 0%;
+    }
+    88%{
+        width: 88%;
+    }
+}
+.skill-6{
+    width: 17%;
+    animation: skill-6 7s 1 linear;
+}
+@keyframes skill-6{
+    0%{
+        width: 0%;
+    }
+    17%{
+        width: 17%;
+    }
+}
+.skill-7{
+    width: 12%;
+    animation: skill-7 7s 1 linear;
+}
+@keyframes skill-7{
+    0%{
+        width: 0%;
+    }
+    12%{
+        width: 12%;
+    }
+}
+.skill-8{
+    width: 10%;
+    animation: skill-8 7s 1 linear;
+}
+@keyframes skill-8{
+    0%{
+        width: 0%;
+    }
+    10%{
+        width: 10%;
+    }
+}
