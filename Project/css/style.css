@@ -458,6 +458,9 @@ body{
     border-left: 1px solid #f4f9ed;
     position: relative;
 }
+.border-none{
+    border: none !important;
+}
 .inner-resume-text{
     padding: 0px 10px;
 }
@@ -505,6 +508,8 @@ body{
     height: 10px;
     border: 2px solid #35C7AA;
     border-radius: 20px;
+    display: flex;
+    align-items: center;
 }
 .inner-progress-bar{
     border: 2px solid white;

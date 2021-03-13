@@ -6,14 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/layout.css">
     <title>Resume</title>
 </head>
 <body>
-  <div id="header-content">
-      <div class="header">
+  <section id="page">
+    <div id="page-content">
+      <div id="header-content">
+        <div class="header">
           <div class="header-text">
             <h1>Alex Smith</h1>
             <p>Web Developer</p>
@@ -21,20 +23,20 @@
           <div class="header-img">
             <img src="../img/profile_pic.jpg" alt="profile_pic">
           </div>
+        </div>
       </div>
-  </div>
-  <div id="main-content">
-    <!-- main content -->
-    <section id="main_content">
-      <!-- nb (navbar) container -->
-      <div id="nb_container">
+      <div id="main-content">
+        <!-- main content -->
+        <section id="main_content">
+              <!-- nb (navbar) container -->
+            <div id="nb_container">
                 <div class="nb">
                     <ul> 
-                        <li><a href="../html/index.html">About me</a></li>
-                        <li><a href="../html/resume.html">Resume</a><hr></li>
-                        <li><a href="../html/portfolio.html">Portfolio</a></li>
-                        <li><a href="../html/blog.html">Blog</a></li>
-                        <li><a href="../html/contact.html">Contact</a></li>
+                      <li><a href="../html/index.html">About me</a></li>
+                      <li><a href="../html/resume.html">Resume</a><hr></li>
+                      <li><a href="../html/portfolio.html">Portfolio</a></li>
+                      <li><a href="../html/blog.html">Blog</a></li>
+                      <li><a href="../html/contact.html">Contact</a></li>
                     </ul>
                 </div>
                 <div class="social_icon">
@@ -45,15 +47,16 @@
                         <a href="#"><i class="fab fa-google-plus-g"></i></a>
                     </ul>
                 </div>
-      </div>
-      <!-- section-title start -->
-      <div id="st_container">
-        <div class="st-content">
-          <h2>Resume</h2>
-          <span>6 Years of Experience</span>
-        </div>
-      </div>
-      <!-- resume section start -->
+            </div>
+            <!-- section-title start -->
+            <div id="st_container">
+                <div class="st-content">
+                    <h2>Resume</h2>
+                    <span>6 Years of Experience</span>
+                </div>
+            </div>
+            <!-- section-title end -->
+            <!-- resume section start -->
       <section id="resume">
         <div class="resume-container">
           <div class="row">
@@ -90,7 +93,15 @@
               <div class="inner-resume-text">
                 <h3>Experience</h3>
                 <div>
-                  <p class="resume-date m-0 p-0 fs-12">2010</p>
+                  <p class="resume-date m-0 p-0 fs-12">Dec 2012 - Current</p>
+                </div>
+                <div class="description">
+                  <h4 class="mb-0">Frontend-developer</h4>  
+                  <p class="color-9ca097 mt-0 fs-12">Web Agency</p>
+                  <p>Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p>
+                </div>
+                <div>
+                  <p class="resume-date m-0 p-0 fs-12">Dec 2011 - Nov 2012</p>
                 </div>
                 <div class="description">
                   <h4 class="mb-0">Specialization Course</h4>  
@@ -98,15 +109,7 @@
                   <p>Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p>
                 </div>
                 <div>
-                  <p class="resume-date m-0 p-0 fs-12">2010</p>
-                </div>
-                <div class="description">
-                  <h4 class="mb-0">Specialization Course</h4>  
-                  <p class="color-9ca097 mt-0 fs-12">University of Studies</p>
-                  <p>Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed tortor.</p>
-                </div>
-                <div>
-                  <p class="resume-date m-0 p-0 fs-12">2010</p>
+                  <p class="resume-date m-0 p-0 fs-12">Jan 2010 - Dec 2011</p>
                 </div>
                 <div class="description">
                   <h4 class="mb-0">Specialization Course</h4>  
@@ -115,27 +118,57 @@
                 </div>
               </div>            
             </div>
-            <div class="col-4 border-red inner-resume">
+            <div class="col-4 inner-resume border-none">
               <h3>Design Skills</h3>
               <div class="p-10">
                 <h5 class="m-0">Web Design</h5>
                 <div class="progress-bar mt-5">
-                  <div class="inner-progress-bar"></div>
+                  <div class="inner-progress-bar w-90"></div>
                 </div>
               </div>
               <div class="p-10">
                 <h5 class="m-0">Graphic Design</h5>
                 <div class="progress-bar mt-5">
-                  <div class="inner-progress-bar w-50"></div>
+                  <div class="inner-progress-bar w-70"></div>
                 </div>
               </div>
               <div class="p-10">
                 <h5 class="m-0">Print Design</h5>
                 <div class="progress-bar mt-5">
-                  <div class="inner-progress-bar w-30"></div>
+                  <div class="inner-progress-bar w-50"></div>
                 </div>
               </div>
-              <h3>Design Skills</h3>
+              <h3>Coding Skills</h3>
+              <div class="p-10">
+                <h5 class="m-0">HML5</h5>
+                <div class="progress-bar mt-5">
+                  <div class="inner-progress-bar w-90"></div>
+                </div>
+              </div>
+              <div class="p-10">
+                <h5 class="m-0">CSS3</h5>
+                <div class="progress-bar mt-5">
+                  <div class="inner-progress-bar w-80"></div>
+                </div>
+              </div>
+              <div class="p-10">
+                <h5 class="m-0">jQuery</h5>
+                <div class="progress-bar mt-5">
+                  <div class="inner-progress-bar w-70"></div>
+                </div>
+              </div>
+              <div class="p-10">
+                <h5 class="m-0">Wordpress</h5>
+                <div class="progress-bar mt-5">
+                  <div class="inner-progress-bar w-60"></div>
+                </div>
+              </div>
+              <div class="p-10">
+                <h5 class="m-0">PHP</h5>
+                <div class="progress-bar mt-5">
+                  <div class="inner-progress-bar w-70"></div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -150,7 +183,10 @@
         </div>
       </section>
       <!-- my_cv section end -->
-    </section>
-  </div>
+        </section>
+        <!-- main content end -->
+      </div>
+    </div>    
+  </section>
 </body>
 </html>
