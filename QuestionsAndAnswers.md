@@ -4,19 +4,24 @@
     -cavablar
 
 2. Rəqəm və ədədlərin maşın dilinə tərcümə olunma prosesini bilirik. Bəs hərflər və simvollar necə tərcümə olunur?
-    -cavablar
+    - cavablar
+      - Hello World!
 
 3. Günümüzdə istifadə olunan Js,PHP,Python və C# dillərində ortaq istifadə olunan data növləri hansılardır və qısaca izahatlarını yazın
-    -cavablar
+    - cavablar
+      - Hello World!
 
 4. Type Conversion ya da Type Casting nədir? Hansı hallarda ehtiyac duyulur
-    -cavablar
+    - cavablar
+      - Hello World!
 
 5. Operator precedence nədir və əhəmiyyətini izah edin
-    -cavablar
+    - cavablar
+      - Hello World!
     
 6. Automatic Type Conversion ve Type Conversion Methodlar arasındakı fərqləri izah edin.
-    -cavablar
+    - cavablar
+      - Hello World!
 
 ## Arasdirma movzulari
     -Deyisenler (Variables let ve var )
