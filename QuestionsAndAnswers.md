@@ -1,7 +1,7 @@
 # Questions And Answers
 
 1. Translator ve assembler nədir? Compiler və interpreter ilə aralarındakı fərqlər nələrdir?
-    -cavablar
+    - cavablar
 
 2. Rəqəm və ədədlərin maşın dilinə tərcümə olunma prosesini bilirik. Bəs hərflər və simvollar necə tərcümə olunur?
     - cavablar
