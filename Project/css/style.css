@@ -60,6 +60,12 @@ body{
 .p-10{
     padding: 10px;
 }
+.ai-center{
+    align-items: center;
+}
+.jc-center{
+    justify-content: center;
+}
 /* page */
 #page{
     position: relative;
@@ -222,7 +228,7 @@ body{
     margin: 0px;
     /* border: 2px solid red; */
 }
-.testimonials h3, .services-header h3, .clients-header h3, .fun-facts-header h3, .inner-resume h3{
+.testimonials h3, .services-header h3, .clients-header h3, .fun-facts-header h3, .inner-resume h3, .get-in-touch h3{
     display: inline-block;
     border-bottom: 2px solid #34C7A9;
 }
@@ -624,8 +630,27 @@ body{
 
 }
 .get-in-touch{
-
+    padding: 10px;
+}
+.get-in-touch p{
+    margin: 0px;
+    padding: 0px;
 }
 .form{
     
+}
+.contact-icons{
+    font-size: 16px;
+    color: #666666;
+    line-height: 24px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.contact-icons-descp{
+    font-size: 13px;
+    color: #222222;
+    line-height: 20px;
+    font-weight: 500;
+    padding-left: 20px;
+    margin-top: 20px;
 }
