@@ -24,8 +24,8 @@
       - Hello World!
 
 ## Arasdirma movzulari
-    -Deyisenler (Variables let ve var )
-    -Deyisenlerin adlandirilmasi (naming conventions)
-    -Data tipleri (Data types)
-    -Operatorlar ()
-    -Operator siralamasi (Operator Precedence)
+  - Deyisenler (Variables let ve var )
+  - Deyisenlerin adlandirilmasi (naming conventions)
+  - Data tipleri (Data types)
+  - Operatorlar ()
+  - Operator siralamasi (Operator Precedence)
