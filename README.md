@@ -67,3 +67,11 @@ Foundation project link (Demo) [My_Template](https://lmpixels.com/demo/sunshine-
 # week05-day04
 
 ## layihemin resume sehifesini yazmaga calisdim
+
+# week06-day01
+
+## Javascript-e artiq giris eledik
+
+# week06-day05
+
+## Javascript-de bezi kodlar yazmaga basladim
