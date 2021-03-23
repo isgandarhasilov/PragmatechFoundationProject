@@ -77,12 +77,6 @@ body{
 .jc-center{
     justify-content: center;
 }
-@media(max-width="600px"){
-    .nb{
-        display: none;
-    }
-    
-}
 /* page */
 #page{
     position: relative;
@@ -95,7 +89,7 @@ body{
     width: 25%;
     height: 100%;
     border-right: 5px solid #E0E9ED;
-    background-color: #BCD2DB;
+    background-color: #34C7A9;
     position: fixed;
 }
 .header{}
