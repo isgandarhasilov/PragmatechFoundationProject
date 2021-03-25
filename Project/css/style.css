@@ -679,3 +679,7 @@ body{
 .portfolio-container{
 
 }
+.portfolio-img{
+    width: 100%;
+    object-fit: cover;
+}
