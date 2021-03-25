@@ -126,7 +126,7 @@ body{
     z-index: 999;
 }
 .inner-main-content{}
-#nb_container, #st_container, #general_info, #services, #clients, #fun_facts, #blog_posts, .resume-container, #my_cv, #contact {
+#nb_container, #st_container, #general_info, #services, #clients, #fun_facts, #blog_posts, .resume-container, #my_cv, #contact, .portfolio-container {
     display: flex;
     padding: 30px 70px;
     align-items: center;
@@ -666,4 +666,16 @@ body{
     padding-left: 20px;
     margin-top: 20px;
     letter-spacing: 1px;
+}
+/* portfolio styles */
+#portfolio{}
+.bg-35C7AA{
+    background-color: #35C7AA;
+    color: white;
+}
+.portfolio-title{
+    padding: 5px 10px;
+}
+.portfolio-container{
+
 }
