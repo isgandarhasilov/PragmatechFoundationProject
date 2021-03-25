@@ -377,6 +377,9 @@ body{
 .ml-10{
     margin-left: 10px;
 }
+.mb-10{
+    margin-bottom: 10px;
+}
 .inner-fun-facts{
     padding: 20px;
     /* border: 1px solid green; */
@@ -693,8 +696,8 @@ body{
     position: relative;
 }
 .portfolio-item:hover .portfolio-img-overlay{
+    /* transition: all 0.7s ease; */
     display: block;
-    transition: all 0.7s ease;
     cursor: pointer;
 }
 .portfolio-img-overlay{
@@ -712,7 +715,7 @@ body{
     top: 10px;
     left: 10px;
     color: white;
-    font-size: 24px;
+    font-size: 20px;
     border-bottom: 2px solid #35C7AA;
 }
 .overlay-subtitle{
@@ -720,12 +723,12 @@ body{
     bottom: 10px;
     left: 10px;
     color: white;
-    font-size: 20px;
+    font-size: 16px;
 }
 .overlay-icon{
     position: absolute;
     bottom: 10px;
     right: 10px;
     color: white;
-    font-size: 20px;
+    font-size: 16px;
 }
