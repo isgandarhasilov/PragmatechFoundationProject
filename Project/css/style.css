@@ -1,10 +1,10 @@
 body{
     margin: 0px;
     padding: 0px;
-    font-family: 'Oswald', Helvetica, sans-serif;
+    /* font-family: 'Oswald', Helvetica, sans-serif; */
     background-color: #FFFFFF;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'PT Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    /* font-family: 'PT Sans', sans-serif; */
 }
 .bg-video{
     position: absolute;
@@ -731,4 +731,38 @@ body{
     right: 20px;
     color: white;
     font-size: 16px;
+}
+/* form styles */
+.form-group{
+    padding: 5px 10px;
+    border: 1px solid #888;
+    margin-bottom: 20px;
+    border-radius: 2px;
+}
+#fullName{
+    width: 100%;
+    border: none;
+    outline: none;
+}
+#e-mail{
+    width: 100%;
+    border: none;
+    outline: none;
+}
+#textarea{
+    width: 100%;
+    height: auto;
+    border: none;
+    outline: none;
+}
+#submit{
+    padding: 10px 40px;
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid #35C7AA;
+}
+#submit:hover{
+    background-color: #35C7AA;
+    color: white;
+    transition: all 0.7s ease;
 }
