@@ -1,10 +1,10 @@
 body{
     margin: 0px;
     padding: 0px;
-    /* font-family: 'Oswald', Helvetica, sans-serif; */
+    font-family: 'Oswald', Helvetica, sans-serif;
     background-color: #FFFFFF;
-    /* font-family: 'Open Sans', sans-serif; */
-    /* font-family: 'PT Sans', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
 }
 .bg-video{
     position: absolute;
