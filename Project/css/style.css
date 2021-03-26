@@ -712,23 +712,23 @@ body{
 }
 .overlay-title{
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 20px;
+    left: 20px;
     color: white;
     font-size: 20px;
     border-bottom: 2px solid #35C7AA;
 }
 .overlay-subtitle{
     position: absolute;
-    bottom: 10px;
-    left: 10px;
+    bottom: 20px;
+    left: 20px;
     color: white;
     font-size: 16px;
 }
 .overlay-icon{
     position: absolute;
-    bottom: 10px;
-    right: 10px;
+    bottom: 20px;
+    right: 20px;
     color: white;
     font-size: 16px;
 }
