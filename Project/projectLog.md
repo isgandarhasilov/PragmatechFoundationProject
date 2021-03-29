@@ -1,6 +1,6 @@
-# ===================Tarix: 29.03.2021==================
+# ========Tarix: 29.03.2021========
 ## Layihəmin cari vəziyyəti:
-### Layihəm əsasən 5 sehifədən ibarətdi. 
+### Layihəm əsasən 5 səhifədən ibarətdi. 
 - Haqqımda səhifəsi
   - bu səhifə üzrə bitmə faizləri:
     - ümumi HTML və CSS hissələr 90 faiz bitmiş sayılır
