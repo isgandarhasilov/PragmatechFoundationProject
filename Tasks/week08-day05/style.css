@@ -1,56 +1,45 @@
-div{
+.container{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slider{
+    position: relative;
+    border: 5px solid green;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.slider-content{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 500px;
-    height: 500px;
-    /* border: 2px solid red; */
 }
-.innerDiv{
-    padding: 20px;
-    width: 400px;
-    height: 400px;
-    animation: anim 1s infinite linear;
+.photo{
+    width: 900px;
+    height: 700px;
+    position: relative;
+    
 }
-@keyframes anim {
-    0%{
-        transform: rotateX(0deg);
-        transform: rotatY(0deg);
-        transform:rotate(0deg);
-        transition: all 5s ease;
-        background-color: blue;
-        border-radius: 10%;
-    }
-    25%{
-        transform: rotateX(25deg);
-        transform: rotateY25deg);
-        transform:rotate(25deg);
-        transition: all 5s ease;
-        background-color: red;
-        border-radius: 20%;
-    }
-    50%{
-        transform: rotateX(50deg);
-        transform: rotateY50deg);
-        transform:rotate(50deg);
-        transition: all 5s ease;
-        background-color: green;
-        border-radius: 30%;
-    }
-    75%{
-        transform: rotateX(75deg);
-        transform: rotateY75deg);
-        transform:rotate(75deg);
-        transition: all 5s ease;
-        background-color: yellow;
-        border-radius: 40%;
-    }
-    100%{
-        transform: rotateX(100deg);
-        transform: rotateXY00deg);
-        transform:rotate(100deg);
-        transition: all 5s ease;
-        background-color: pink;
-        border-radius: 50%;
-    }
+.photo img{
+    width: 100%;
+    height: 100%;
+}
+.text{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    color: white;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .6);
+}
+.button{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 50%;
+    padding: 0px 10px;
+}
+.left{
+    padding: 10px 15px;
+}
+.right{
+    padding: 10px 15px;
 }
