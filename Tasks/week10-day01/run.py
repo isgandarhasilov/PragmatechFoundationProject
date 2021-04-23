@@ -37,10 +37,11 @@
 # d=a[1]
 # print(int(c)+int(d))
 #  0  1  2  3   4    5    6   
-a=[3, 6, 9, 12, 13, -67, -70]
-for i in a:
-    for j in a:
-        if i>j:
-            eded=j
-            i=eded
-print(eded)
+# a=[3, 6, 9, 12, 13, -67, -70]
+# for i in a:
+#     for j in a:
+#         if i>j:
+#             eded=j
+#             i=eded
+# print(eded)
+
